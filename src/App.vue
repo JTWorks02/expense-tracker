@@ -28,7 +28,7 @@ const income = computed( () => {
   }, 0)
 })
 
-//get the expenses by adding all negative values
+//get the expenses by adding all negative
 const expense = computed( () => {
   return transactions.value
   .filter((transaction) => transaction.amount < 0)
